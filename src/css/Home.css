@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300&family=Hubballi&family=IBM+Plex+Sans+Condensed:wght@100&family=Ubuntu:wght@300&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+.mid-title {
+  color: #232e69;
+  font-weight: 700;
+  line-height: 69px;
+  margin-top: 140px;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.t_2 {
+  margin-top: 5px;
+}
+.t_3,
+.t_4 {
+  font-size: 17px;
+}
+.t_3 {
+  margin-top: 1px;
+}
+.t_4 {
+  margin-top: -35px;
+}
+.hide {
+  display: none;
+}
+.buttons {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.buttons > button {
+  background-color: #fff;
+  border: 1px solid #3b3a40;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons > button:nth-child(1) {
+  background-color: #5b45e0;
+  color: #fff;
+}
+.buttons > button:nth-child(2) {
+  background-color: #fff;
+  color: #5b45e0;
+}
+
+#curve1,
+#curve2 {
+  position: absolute;
+  top: 420px;
+  left: -90px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  filter: brightness(0.8) sepia(0.4) hue-rotate(-10deg) saturate(2);
+}
+
+#curve2 {
+  width: 100px;
+  height: 100px;
+  top: 80%;
+  left: 95%;
+}
+
+#line {
+  position: absolute;
+  top: 750px;
+  right: 150px;
+  z-index: -1;
+}
+#sign {
+  position: absolute;
+  top: 750px;
+  left: 100px;
+  z-index: -1;
+}
+#triangle {
+  position: absolute;
+  top: 800px;
+  left: 150px;
+  z-index: -1;
+}
+
+.graphs {
+  background-color: #fff;
+  border-radius: 4px;
+  width: 700px;
+  height: 450px;
+  margin: 0 auto;
+  color: black;
+  position: relative;
+}
+
+.header-title{
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  grid-column-gap: 200px;
+  grid-auto-rows: 50px;
+  margin: 30px;
+  padding: 10px;
+}
+
+.header-title-2{
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  margin-left: 35px;
+}
+
+.gray{
+  color: #8E8C95;
+  font-size: .5em;
+}
+.header-title>.select {
+  color: black;
+  font-weight: bold;
+}
+.select {
+  width: 120px;
+  height: 32px;
+  align-self: flex-end;
+  color: #8E8C95;
+  }
+
+.bars {
+  margin-top: 10px;
+}
+
+.box{
+  width: 200px;
+  height: 175px;
+  background-color: #fff;
+  border-radius: 16px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  padding: 40px;
+}
