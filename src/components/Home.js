@@ -5,7 +5,6 @@ import curve2 from "../images/curverLine2.svg";
 import sign from "../images/sign.svg";
 import line from "../images/line.svg";
 import triangle from "../images/triangle.svg";
-import upArrow from "../images/upArrow.svg";
 import {FaArrowUp, FaCircle} from "react-icons/fa"
 import {
   BarChart,
