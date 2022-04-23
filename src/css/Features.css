@@ -1,17 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300&family=Hubballi&family=IBM+Plex+Sans+Condensed:wght@100&display=swap');
-*,*::before,*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    width: 100%;
-}   
-
-.feature{
+.features {
     background-color: #fff;
-    position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     border-radius: 48px 48px 0px 0px;
-}
+    position: relative;
+  }
+  
+  .features-container {
+    background-color: #fff;
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .featuresHeader {
+    display: flex;
+    width: 180px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .featuresTitle {
+    font-weight: bold;
+    color: #8e8c95;
+  }
+  
+  .featuresLine {
+    width: 65px;
+    height: 2px;
+    background-color: #d1d0d6;
+  }
+  
+  .features-content {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    width: 80%;
+    height: 80%;
+    grid-column-gap:10% ;
+    grid-row-gap:10px ;
+    margin-left: 30px;
+  }
+  
+  .feature1 {
+    width: 300px;
+    height: 150px;
+    font-size: 20px;
+  }
+  
+  .feature2{
+      width: 420px;
+      height: 150px;
+      font-size: 19px;
+  }
+  
+  .feature3, .feature4 , .feature5, .feature6 {
+      width: 400px;
+      font-size: 19px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+  }
+  
+  .fc1,.fc2{
+      width: 100px;
+      height: 100px;
+      background-color: #FFEDB6;
+      border-radius: 50%;
+      position: relative;
+  }
+  
+  .featuresCircle>img{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+  .fc3,.fc4{
+      width: 100px;
+      height: 100px;
+      background-color: #D1E8FF;
+      border-radius: 50%;
+      position: relative;
+  }
+  
+  .a{
+      display: flex;
+  }
+  
+  .learn-more{
+      color: #5B45E0;
+      font-weight: bold;
+  }
+  
+  .learn-more-icon{
+      color: #5B45E0;
+      font-size: 23px;
+  }
