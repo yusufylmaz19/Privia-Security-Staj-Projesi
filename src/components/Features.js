@@ -10,10 +10,12 @@ function Features() {
   return (
     <div className="features">
       <div className="features-container">
+        {/* containerımımz header ve içeriklerin olduğu content şeklinde 2 dive ayrıcağız */}
         <div className="featuresHeader">
           <div className="featuresLine"></div>
           <h3 className="featuresTitle">Features</h3>
         </div>
+        {/* content tarınfda grid systemkullamak için nested div yapısını kullancağız */}
         <div className="features-content">
           <div className="feature1">
             <h1>Our Solution for your buisness </h1>
