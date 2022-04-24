@@ -5,8 +5,12 @@ function Footer() {
  
   return (
     <footer>
-      <div className="partTwo">
-        Some footer here
+      <div className='footerContainer'>
+      <div className='foooterPart1'></div>
+      <div className='foooterPart2'></div>
+      <div className='foooterPart3'></div>
+      <div className='foooterPart4'></div>
+      <div className='foooterPart5'></div>
       </div>
     </footer> 
     );
