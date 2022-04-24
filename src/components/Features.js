@@ -15,8 +15,8 @@ import { PieChart, Pie, Cell } from "recharts";
 
 function Features() {
   const data = [
-    { name: "Videos", value: 50 },
-    { name: "İmages", value: 310 },
+    { name: "Videos", value: 60 },
+    { name: "İmages", value: 300 },
   ];
   const COLORS = ["#5B45E0", "#FFE080"];
   return (
@@ -133,7 +133,7 @@ function Features() {
                 <Pie
                   data={data}
                   cx={120}
-                  cy={100}
+                  cy={85}
                   innerRadius={60}
                   outerRadius={90}
                   fill="#8884d8"
@@ -148,6 +148,14 @@ function Features() {
                   ))}
                 </Pie>
               </PieChart>
+              <div className="pieCircleOne">
+                <h4 style={{color:'#3B3A40'}}> 23.45%</h4>
+                <p style={{color:'#8E8C95'}}>Videos</p>
+              </div>
+              <div className="pieCircleTwo">
+              <h4 style={{color:'#3B3A40'}}> 76.55%</h4>
+                <p style={{color:'#8E8C95'}}>Images</p>
+              </div>
             </div>
           </div>
           <div className="box2">
