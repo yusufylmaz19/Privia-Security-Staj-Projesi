@@ -21,6 +21,16 @@ import resim2 from "../images/resim2.svg";
 import resim3 from "../images/resim3.svg";
 import curvedLine from "../images/curvedLine.svg";
 import line from "../images/line.svg";
+import slackLogo from "../images/slack.svg";
+import hubSpotLogo from "../images/hubspot.svg";
+import squareLogo from "../images/square.svg";
+import titanLogo from "../images/titan.svg";
+import cogniLogo from "../images/cogni.svg";
+import grubhubLogo from "../images/grubhub.svg";
+import user1 from "../images/User.svg";
+import user2 from "../images/User1.svg";
+import shopify from "../images/shopify.svg";
+import airbnb from "../images/airbnb.svg";
 
 import { FaArrowUp,FaCheck } from "react-icons/fa";
 import { PieChart, Pie, Cell } from "recharts";
@@ -282,6 +292,29 @@ function Features() {
                   </div>
           </div>
         </div>
+        <p className="baslık" > More than 1.8 million people across 50,000 companies choose Oval</p>
+        <div className="f4-content">
+        <div className="f4-content-header">
+                <img src={slackLogo}></img>
+                <img src={hubSpotLogo}></img>
+                <img src={squareLogo}></img>
+                <img src={titanLogo}></img>
+                <img src={cogniLogo}></img>
+                <img src={grubhubLogo}></img>
+        </div>
+        <div className="boxes">
+            <div className="boxes1"><img style={{padding:'30px'}}src={shopify}></img><h2 style={{padding:'30px',paddingTop:'0',color:'#000'}}>I received great customer service from the specialists who helped me. I would recommend to anyone who wants great dashboard that has great quality.</h2> <img style={{padding:'30px',paddingTop:'0'}} src={user1}></img> </div>
+            <div className="boxes2"><img style={{padding:'30px'}}src={airbnb}></img><h2 style={{padding:'30px',paddingTop:'0',color:'#000'}}>My experience with this platform so far has been great. Everything is easy, from creating visualization, scheduling, collaboration and many more.</h2> <img style={{padding:'30px',paddingTop:'0'}} src={user2}></img> </div>
+        </div>
+        </div>
+        <p className="ayaklık">  
+        <div className="a">
+         <a className="learn-more">See All  Testimonial</a>
+            <span className="learn-more-icon">
+                  <GoChevronRight />
+            </span>
+          </div>
+        </p>
       </div>
     </>
   );
