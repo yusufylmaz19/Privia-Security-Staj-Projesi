@@ -10,6 +10,14 @@ import path1Logo from "../images/Path 11.svg";
 import path2Logo from "../images/Path 10.svg";
 import syncLogo from "../images/Sync.svg";
 import layerLogo from "../images/ic_Layer.svg";
+import magicLogo from "../images/Magic Wand.svg";
+import shapeLogo from "../images/Shape.svg";
+import shape1Logo from "../images/Shape1.svg";
+import shape2Logo from "../images/Shape2.svg";
+import shape3Logo from "../images/Shape3.svg";
+import shape4Logo from "../images/Shape4.svg";
+
+
 import { FaArrowUp } from "react-icons/fa";
 import { PieChart, Pie, Cell } from "recharts";
 
@@ -217,7 +225,12 @@ function Features() {
         </h1>
         </div>
         <div className="f3Features">
-
+            <div className="f3"> <div className="f3Circle1"><img src={magicLogo}></img></div><h3>Easy customization</h3><p>No matter what kind of home you have to share, you can increase your earnings.</p></div>
+            <div className="f3"> <div className="f3Circle1"><img src={shapeLogo}></img></div><h3>Secure and fast</h3><p>No matter what kind of home you have to share, you can increase your earnings.</p></div>
+            <div className="f3"> <div className="f3Circle1"><img src={shape1Logo}></img></div><h3>Powerful dashboard</h3><p>No matter what kind of home you have to share, you can increase your earnings.</p></div>
+            <div className="f3"> <div className="f3Circle2"><img src={shape2Logo}></img></div><h3>Cloud upload</h3><p>No matter what kind of home you have to share, you can increase your earnings.</p></div>
+            <div className="f3"> <div className="f3Circle2"><img src={shape3Logo}></img></div><h3>Proven Technology</h3><p>No matter what kind of home you have to share, you can increase your earnings.</p></div>
+            <div className="f3"> <div className="f3Circle2"><img src={shape4Logo}></img></div><h3>98.99% satisfaction</h3><p>No matter what kind of home you have to share, you can increase your earnings.</p></div>
         </div>
         </div>
       </div>
