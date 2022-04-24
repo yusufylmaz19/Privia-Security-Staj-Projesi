@@ -11,7 +11,7 @@ import path2Logo from "../images/Path 10.svg";
 import syncLogo from "../images/Sync.svg";
 import layerLogo from "../images/ic_Layer.svg";
 import { FaArrowUp } from "react-icons/fa";
-import { PieChart, Pie, Cell, Tooltip } from "recharts";
+import { PieChart, Pie, Cell } from "recharts";
 
 function Features() {
   const data = [
@@ -147,7 +147,6 @@ function Features() {
                     />
                   ))}
                 </Pie>
-                <Tooltip />
               </PieChart>
             </div>
           </div>
