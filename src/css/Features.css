@@ -116,7 +116,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 15%;
-
 }
 
 .f2PartOne{
@@ -324,4 +323,100 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+
+.features4{
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15%;
+}
+
+.f4PartOne{
+  width: 400px;
+  height: 500px;
+  margin-left: auto;
+  position: relative;
+}
+
+.f4PartTwo{
+  width: 400px;
+  height: 500px;
+  margin-right: auto;
+  position: relative;
+}
+
+.f4PartOne>#oval{
+  position: absolute;
+  filter: invert(3%) sepia(22%) saturate(5898%) hue-rotate(176deg) brightness(98%) contrast(114%) ;
+  width: 420px;
+}
+.f4PartOne>#resim1{
+  position: absolute;
+  top: -20px;
+  left: 280px;
+}
+.f4PartOne>#resim2{
+  position: absolute;
+  top: 210px;
+  left: 170px;
+  z-index: 2;
+}
+.f4PartOne>#resim3{
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: -10px;
+}
+.f4PartOne>#curvedLine{
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+.f4PartOne>#line{
+  position: absolute;
+  top: 230px;
+  left: 130px;
+  z-index: 0;
+  width: 120px;
+  transform: rotate(15deg);
+}
+
+.f4PartTwo>.f2Title{
+  width: 330px;
+  text-align: left;
+}
+
+.f4PartTwo>.list{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 450px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: -20px;
+  }
+
+.f4ListOne{
+  margin-left: auto;
+  width: 200px;
+  height: 100%;
+  padding-bottom: 150px;
+}
+.f4ListTwo{
+  margin-right: auto;
+  margin-left: 20px;
+  width: 200px;
+  height: 100%;
+  padding-bottom: 150px;
+}
+
+.f4Box{
+  display: flex;
+  margin-bottom: 40px;
+}
+.f4Box>h3{
+  margin-left: 10px;
 }

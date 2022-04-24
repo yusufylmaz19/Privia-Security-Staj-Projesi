@@ -16,9 +16,13 @@ import shape1Logo from "../images/Shape1.svg";
 import shape2Logo from "../images/Shape2.svg";
 import shape3Logo from "../images/Shape3.svg";
 import shape4Logo from "../images/Shape4.svg";
+import resim1 from "../images/resim1.svg";
+import resim2 from "../images/resim2.svg";
+import resim3 from "../images/resim3.svg";
+import curvedLine from "../images/curvedLine.svg";
+import line from "../images/line.svg";
 
-
-import { FaArrowUp } from "react-icons/fa";
+import { FaArrowUp,FaCheck } from "react-icons/fa";
 import { PieChart, Pie, Cell } from "recharts";
 
 function Features() {
@@ -232,6 +236,51 @@ function Features() {
             <div className="f3"> <div className="f3Circle2"><img src={shape3Logo}></img></div><h3>Proven Technology</h3><p>No matter what kind of home you have to share, you can increase your earnings.</p></div>
             <div className="f3"> <div className="f3Circle2"><img src={shape4Logo}></img></div><h3>98.99% satisfaction</h3><p>No matter what kind of home you have to share, you can increase your earnings.</p></div>
         </div>
+        </div>
+      </div>
+      {/* feature kısmınn ikinic partı */}
+      <div className="features4">
+        <div className="f4PartOne">
+          <img id="oval" src={ovalLogo}></img>
+          <img id="resim1" src={resim1}></img>
+          <img id="resim2" src={resim2}></img>
+          <img id="resim3" src={resim3}></img>
+          <img id="curvedLine" src={curvedLine}></img>
+          <img id="line" src={line}></img>
+        </div>
+        <div className="f4PartTwo">  
+        <div className="featuresHeader">
+            <div className="featuresLine"></div>
+            <h3 className="featuresTitle">Collaborate</h3>
+          </div>
+          <h1 className="f2Title" style={{fontWeight:'bold'}}>Collaborate with your team anytime, anywhere</h1>
+          <p style={{marginTop:'20px',color:'#3B3A40'}}>Self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.</p>
+          <div className="list"> 
+              <div className="f4ListOne">
+                  <div className="f4Box">
+                  <FaCheck style={{color:'#38AC79'}}/>
+                  <h3>Work with any team</h3>
+                  </div>  
+                  <div className="f4Box">
+                  <FaCheck style={{color:'#38AC79'}}/>
+                  <h3>Organize your data</h3>
+                  </div>
+                  <div className="f4Box">
+                  <FaCheck style={{color:'#38AC79'}}/>
+                  <h3>Business analytics</h3>
+                  </div> 
+              </div>
+                  <div className="f4ListTwo">
+                  <div className="f4Box">
+                  <FaCheck style={{color:'#38AC79'}}/>
+                  <h3>Always in sync</h3>
+                  </div>  
+                  <div className="f4Box">
+                  <FaCheck style={{color:'#38AC79'}}/>
+                  <h3>Embedded analytics</h3>
+                  </div>
+                  </div>
+          </div>
         </div>
       </div>
     </>
