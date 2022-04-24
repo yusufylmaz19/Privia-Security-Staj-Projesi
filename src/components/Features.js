@@ -9,8 +9,8 @@ import lineLogo from "../images/ic_Line Chart.svg";
 function Features() {
   return (
     <div className="features">
-      <div className="features-container">
         {/* containerımımz header ve içeriklerin olduğu content şeklinde 2 dive ayrıcağız */}
+      <div className="features-container">
         <div className="featuresHeader">
           <div className="featuresLine"></div>
           <h3 className="featuresTitle">Features</h3>
@@ -28,8 +28,8 @@ function Features() {
             </p>
           </div>
           <div className="feature3"><div className="featuresCircle fc1"><img src={pieLogo}></img> </div> 
-          <div><h2>Analayze your data</h2>
-          <p>Create reports with an easy to use drag-and-drop designer.</p>
+          <div><h2 className="featureTitle">Analayze your data</h2>
+          <p className="featurePar">Create reports with an easy to use drag-and-drop designer.</p>
           <div className="a">
           <a className="learn-more">Learn more</a>
           <span className="learn-more-icon"> <GoChevronRight /></span>
@@ -37,8 +37,8 @@ function Features() {
           </div>
           </div>
           <div className="feature4"><div className="featuresCircle fc2"> <img src={shiledLogo}></img> </div> 
-          <div><h2>Analayze your data</h2>
-          <p>Create reports with an easy to use drag-and-drop designer.</p>
+          <div><h2 className="featureTitle">Collaborate securely</h2>
+          <p className="featurePar">Share/publish your reports with your colleagues.</p>
           <div className="a">
           <a className="learn-more">Learn more</a>
           <span className="learn-more-icon"> <GoChevronRight /></span>
@@ -46,8 +46,8 @@ function Features() {
           </div>
           </div>
           <div className="feature5"><div className="featuresCircle fc3"> <img src={lineLogo}></img> </div> 
-          <div><h2>Analayze your data</h2>
-          <p>Create reports with an easy to use drag-and-drop designer.</p>
+          <div><h2 className="featureTitle">Embedded analytics</h2>
+          <p className="featurePar">Get a powerful analytics tool in your own brand name.</p>
           <div className="a">
           <a className="learn-more">Learn more</a>
           <span className="learn-more-icon"> <GoChevronRight /></span>
@@ -55,8 +55,8 @@ function Features() {
           </div>
           </div>
           <div className="feature6"><div className="featuresCircle fc4"> <img src={handLogo}></img> </div> 
-          <div><h2>Analayze your data</h2>
-          <p>Create reports with an easy to use drag-and-drop designer.</p>
+          <div><h2 className="featureTitle">Easy and Intutuive</h2>
+          <p className="featurePar">Easily converse with your data using everyday language.</p>
           <div className="a">
           <a className="learn-more">Learn more</a>
           <span className="learn-more-icon"> <GoChevronRight /></span>
@@ -70,3 +70,5 @@ function Features() {
 }
 
 export default Features;
+
+ 
