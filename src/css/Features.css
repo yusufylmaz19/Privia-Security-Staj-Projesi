@@ -99,3 +99,12 @@
       color: #5B45E0;
       font-size: 23px;
   }
+
+  .featureTitle{
+    color:#3B3A40;
+  }
+  
+  .featurePar{
+    color: #64626A;
+    font-weight: 400;
+  }
