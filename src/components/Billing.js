@@ -1,6 +1,6 @@
 import '../css/Billing.css';
 import React from 'react';
-import pathLogo from '../images/Path 9.svg';
+import pathLogo from '../svg/Path 9.svg';
 import { FaCheck } from 'react-icons/fa';
 
 function Billing() {

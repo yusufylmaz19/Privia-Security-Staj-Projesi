@@ -1,7 +1,7 @@
 import "../css/Header.css";
 import React  from "react";
-import logo from "../images/Privia_logo.svg";
-import logo2 from "../images/Chevron Up.svg";
+import logo from "../svg/Privia_logo.svg";
+import logo2 from "../svg/Chevron Up.svg";
 
 function Header() {
   function toggle(e) {

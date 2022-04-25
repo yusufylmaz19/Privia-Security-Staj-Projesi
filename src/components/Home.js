@@ -1,10 +1,10 @@
 import "../css/Home.css";
 import React from 'react';
-import curve from "../images/curverLine1.svg";
-import curve2 from "../images/curverLine2.svg";
-import sign from "../images/sign.svg";
-import line from "../images/line.svg";
-import triangle from "../images/triangle.svg";
+import curve from "../svg/curverLine1.svg";
+import curve2 from "../svg/curverLine2.svg";
+import sign from "../svg/sign.svg";
+import line from "../svg/line.svg";
+import triangle from "../svg/triangle.svg";
 import {FaArrowUp, FaCircle} from "react-icons/fa"
 import {
   BarChart,

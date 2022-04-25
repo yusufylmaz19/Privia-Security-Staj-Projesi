@@ -1,8 +1,9 @@
 import '../css/Footer.css';
 import React from 'react';
-import facebook from '../images/Facebook.svg';
-import twitter from '../images/Twitter.svg';
-import linkedin from '../images/Linkedin.svg';
+import facebook from '../svg/Facebook.svg';
+import twitter from '../svg/Twitter.svg';
+import linkedin from '../svg/Linkedin.svg';
+
 function Footer() {
  
   return (

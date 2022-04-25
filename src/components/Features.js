@@ -1,36 +1,36 @@
 import "../css/Features.css";
 import React from "react";
 import { GoChevronRight } from "react-icons/go";
-import pieLogo from "../images/ic_Pie Chart.svg";
-import shiledLogo from "../images/Ic_Shield.svg";
-import handLogo from "../images/ic_Hand - Checklist.svg";
-import lineLogo from "../images/ic_Line Chart.svg";
-import ovalLogo from "../images/Oval 2 Copy.svg";
-import path1Logo from "../images/Path 11.svg";
-import path2Logo from "../images/Path 10.svg";
-import syncLogo from "../images/Sync.svg";
-import layerLogo from "../images/ic_Layer.svg";
-import magicLogo from "../images/Magic Wand.svg";
-import shapeLogo from "../images/Shape.svg";
-import shape1Logo from "../images/Shape1.svg";
-import shape2Logo from "../images/Shape2.svg";
-import shape3Logo from "../images/Shape3.svg";
-import shape4Logo from "../images/Shape4.svg";
-import resim1 from "../images/resim1.svg";
-import resim2 from "../images/resim2.svg";
-import resim3 from "../images/resim3.svg";
-import curvedLine from "../images/curvedLine.svg";
-import line from "../images/line.svg";
-import slackLogo from "../images/slack.svg";
-import hubSpotLogo from "../images/hubspot.svg";
-import squareLogo from "../images/square.svg";
-import titanLogo from "../images/titan.svg";
-import cogniLogo from "../images/cogni.svg";
-import grubhubLogo from "../images/grubhub.svg";
-import user1 from "../images/User.svg";
-import user2 from "../images/User1.svg";
-import shopify from "../images/shopify.svg";
-import airbnb from "../images/airbnb.svg";
+import pieLogo from "../svg/ic_Pie Chart.svg";
+import shiledLogo from "../svg/Ic_Shield.svg";
+import handLogo from "../svg/ic_Hand - Checklist.svg";
+import lineLogo from "../svg/ic_Line Chart.svg";
+import ovalLogo from "../svg/Oval 2 Copy.svg";
+import path1Logo from "../svg/Path 11.svg";
+import path2Logo from "../svg/Path 10.svg";
+import syncLogo from "../svg/Sync.svg";
+import layerLogo from "../svg/ic_Layer.svg";
+import magicLogo from "../svg/Magic Wand.svg";
+import shapeLogo from "../svg/Shape.svg";
+import shape1Logo from "../svg/Shape1.svg";
+import shape2Logo from "../svg/Shape2.svg";
+import shape3Logo from "../svg/Shape3.svg";
+import shape4Logo from "../svg/Shape4.svg";
+import resim1 from "../svg/resim1.svg";
+import resim2 from "../svg/resim2.svg";
+import resim3 from "../svg/resim3.svg";
+import curvedLine from "../svg/curvedLine.svg";
+import line from "../svg/line.svg";
+import slackLogo from "../svg/slack.svg";
+import hubSpotLogo from "../svg/hubspot.svg";
+import squareLogo from "../svg/square.svg";
+import titanLogo from "../svg/titan.svg";
+import cogniLogo from "../svg/cogni.svg";
+import grubhubLogo from "../svg/grubhub.svg";
+import user1 from "../svg/User.svg";
+import user2 from "../svg/User1.svg";
+import shopify from "../svg/shopify.svg";
+import airbnb from "../svg/airbnb.svg";
 
 import { FaArrowUp,FaCheck } from "react-icons/fa";
 import { PieChart, Pie, Cell } from "recharts";
@@ -265,7 +265,7 @@ function Features() {
           </div>
           <h1 className="f2Title" style={{fontWeight:'bold'}}>Collaborate with your team anytime, anywhere</h1>
           <p style={{marginTop:'20px',color:'#3B3A40'}}>Self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.</p>
-          <div className="list"> 
+          <div className="list">  
               <div className="f4ListOne">
                   <div className="f4Box">
                   <FaCheck style={{color:'#38AC79'}}/>
