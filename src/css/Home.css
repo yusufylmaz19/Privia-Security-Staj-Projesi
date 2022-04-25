@@ -1,26 +1,23 @@
-.mid-title {
+.mid-title,.mid-title2 {
   color: #232e69;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 69px;
-  margin-top: 140px;
+  margin: 120px auto 0 auto;
   font-size: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  width: 50%;
+  height: 180px;
 }
-.t_2 {
-  margin-top: 5px;
+
+.mid-title2{
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 0;
+  line-height: 25px;
+  width: 52%;
 }
-.t_3,
-.t_4 {
-  font-size: 17px;
-}
-.t_3 {
-  margin-top: 1px;
-}
-.t_4 {
-  margin-top: -35px;
-}
+
+
 .hide {
   display: none;
 }

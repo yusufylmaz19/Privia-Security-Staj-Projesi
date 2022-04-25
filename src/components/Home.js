@@ -56,16 +56,8 @@ function Home() {
   return (
     <>
       {/* ekranın ortasında duran yazı ver butonları oluşturuyoruz */}
-      <h1 className="mid-title">Powerful analytics tools</h1>
-      <h1 className="mid-title t_2"> for your business</h1>
-      <h1 className="mid-title t_3">
-        {" "}
-        An awesome tools for your business, increase business revenue with
-        enterprise-grade
-      </h1>
-      <h1 className="mid-title t_4">
-        links built to acquire and engage customers
-      </h1>
+      <h1 className="mid-title">Powerful analytics tools for your business</h1>
+      <h1 className="mid-title2">An awesome tools for your business, increase business revenue with enterprise-grade links built to acquire and engage customers</h1>
       <div className="buttons">
         <button type="button" id="btn_start_trail">
           Star Free Trail
