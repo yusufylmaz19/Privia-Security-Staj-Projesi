@@ -1,0 +1,137 @@
+.descriptionContainer {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+  }
+  
+  .descriptionContent,
+  .descriptionContent2 {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 450px;
+  }
+  .descriptionContent2 {
+    top: 80%;
+    width: 100%;
+    height: 400px;
+    margin-top: -10px;
+    position: relative;
+  }
+  .descriptionHeader {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .descriptionTitle {
+    font-weight: bold;
+    color: #8e8c95;
+  }
+  
+  .descriptionLine {
+    width: 65px;
+    height: 2px;
+    background-color: #d1d0d6;
+  }
+  
+  .descriptionBoldTitle {
+    font-size: 38px;
+    font-weight: bolder;
+    width: 450px;
+    margin-top: 20px;
+  }
+  .descriptionContent > .secondContent {
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1%;
+  }
+  
+  .scBox {
+    width: 350px;
+    height: 300px;
+    margin: 35px auto 0 auto;
+  }
+  
+  .boxLine {
+    width: 90%;
+    height: 4px;
+    margin: 10px 0 10px 0;
+    background-color: #ffedb6;
+  }
+  
+  .scBox > p {
+    font-size: 18px;
+    color: #64626a;
+    padding-top: 10px;
+  }
+  
+  .descriptionContent2 > #oval {
+    position: absolute;
+    filter: invert(3%) sepia(22%) saturate(5898%) hue-rotate(176deg)
+      brightness(98%) contrast(114%);
+    top: 10%;
+    left: -2%;
+  }
+  .descriptionContent2 > #oval1 {
+    position: absolute;
+    filter: brightness(0.8) sepia(0.4) hue-rotate(-10deg) saturate(2);
+    top: 45%;
+    right: -2%;
+    transform: matrix(-0.81, 0.59, 0.59, 0.81, 0, 0);
+    width: 120px;
+  }
+  .descriptionContent2 > #desRect {
+    position: absolute;
+    top: 20%;
+    left: -2%;
+    z-index: 1;
+    width: 150px;
+  }
+  .descriptionContent2 > #desLine {
+    position: absolute;
+    top: 5%;
+    right: -2%;
+    z-index: 1;
+    width: 350px;
+  }
+  .descriptionContent2 > #desTria {
+    position: absolute;
+    top: 67%;
+    right: 10%;
+    z-index: 1;
+  }
+  
+  .descriptionContent2 > .descBox {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  #contactUs {
+    background-color: #5b45e0;
+    border: 1px solid #3b3a40;
+    border-radius: 8px;
+    padding: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    width: 45%;
+    cursor: pointer;
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.12);
+  }
+  
