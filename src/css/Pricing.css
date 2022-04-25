@@ -1,11 +1,11 @@
-.billingContainer {
+.pricingContainer {
   width: 100%;
   height: 900px;
   background-color: #fff;
   position: relative;
 }
 
-.billingTitle {
+.pricingTitle {
   text-align: center;
   font-weight: bolder;
   padding-top: 80px;
@@ -14,12 +14,12 @@
   font-size: 40px;
 }
 
-.billingTitle + p {
+.pricingTitle + p {
   text-align: center;
   color: #3b3a40;
   margin-top: 25px;
 }
-.billingTitle + p + div {
+.pricingTitle + p + div {
   text-align: center;
   color: #3b3a40;
   margin-top: 25px;
@@ -29,15 +29,15 @@
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 25%;
-  left: 50%;
+  top: 28%;
+  left: 52%;
   transform: translate(-50%, -50%);
   margin-left: auto;
   margin-right: auto;
   width: 500px;
 }
 
-.billLine {
+.priceLine{
   position: relative;
   top: 10px;
   left: -80px;
@@ -96,7 +96,7 @@
 }
 
 
-.billingBox {
+.pricingBox {
   position: absolute;
   width: 80%;
   height: 60%;
@@ -108,21 +108,21 @@
   margin: 15px auto 0  auto;
 }
 
-.billingBox1 {
+.pricingBox1 {
   width: 310px;
   height: 470px;
   background-color: #ffedb6;
   border-radius: 12px;
   margin-left: auto;
 }
-.billingBox2 {
+.pricingBox2 {
   width: 310px;
   height: 470px;
   background-color: #d1e8ff;
   border-radius: 12px;
   margin: 0 auto 0  auto;
 }
-.billingBox3 {
+.pricingBox3 {
   width: 310px;
   height: 470px;
   background-color: #5b45e0;
@@ -154,7 +154,7 @@
     opacity: .24;
 }
 
-.billyChecks{
+.pricingChecks{
     margin-right: auto;
     margin-left: 25px;
     width: 80%;
@@ -162,15 +162,15 @@
     color: #64626A;
 }
 
-.billyCheck{
+.pricingCheck{
     display: flex;
     margin-bottom: 20px;
   }
-  .billyCheck>h3{
+  .pricingCheck>h3{
     margin-left: 10px;
   }
 
-.billyButton{
+.pricingButton{
     background-color: #fff;
     border: 1px solid #3b3a40;
     border-radius: 8px;

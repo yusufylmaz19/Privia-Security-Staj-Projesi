@@ -1,13 +1,13 @@
 import React from "react";
 import Footer from '../components/Footer';
-import Billing from '../components/Billing';
+import Pricing from '../components/Pricing';
 import Header from "../components/Header";
 
 function PricingPage(){
     return(
         <>
         <Header/>
-        <Billing/>
+        <Pricing/>
         <Footer/>
         </>
     );

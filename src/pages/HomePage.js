@@ -2,14 +2,14 @@ import React from "react";
 import Home from "../components/Home"
 import Footer from '../components/Footer';
 import Features from '../components/Features';
-import Billing from '../components/Billing';
+import Pricing from '../components/Pricing';
 
 function HomePage(){
     return(
         <>
         <Home/>
         <Features/>
-        <Billing/>
+        <Pricing/>
         <Footer/>
         </>
     );
