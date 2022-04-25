@@ -2,6 +2,7 @@ import "../css/Header.css";
 import React  from "react";
 import logo from "../svg/Privia_logo.svg";
 import logo2 from "../svg/Chevron Up.svg";
+import {Link} from 'react-router-dom';
 
 function Header() {
   function toggle(e) {
@@ -20,7 +21,7 @@ function Header() {
         <img src={logo}></img>
         <ul className="ul1">
           <li>
-            <a href="/blank">About</a>
+            <a href="/">About</a>
           </li>
           <li id="product" onClick={toggle}>
             <a href>Products</a>
@@ -41,13 +42,13 @@ function Header() {
             </ul>
           </li>
           <li>
-            <a>Pricing</a>
+            <a href="Pricing">Pricing</a>
           </li>
           <li>
-            <a>Resource</a>
+            <a href="Resources">Resource</a>
           </li>
           <li>
-            <a>Costumers</a>
+            <a  href="Customers">Costumers</a>
           </li>
         </ul>
 

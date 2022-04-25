@@ -85,3 +85,7 @@ hr {
   border: 0.05px solid;
   opacity: 0.2;
 }
+
+.hide{
+  display: none;
+}
