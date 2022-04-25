@@ -1,176 +1,176 @@
 .billingContainer {
-    width: 100%;
-    height: 130vh;
-    background-color: #fff;
-    position: relative;
-  }
-  
-  .billingTitle {
-    text-align: center;
-    font-weight: bolder;
-    padding-top: 80px;
-    margin: 0 auto;
-    width: 550px;
-    font-size: 40px;
-  }
-  
-  .billingTitle + p {
-    text-align: center;
-    color: #3b3a40;
-    margin-top: 25px;
-  }
-  .billingTitle + p + div {
-    text-align: center;
-    color: #3b3a40;
-    margin-top: 25px;
-  }
-  
-  .buttonAndInfo {
-    display: flex;
-    justify-content: center;
-    position: relative;
-  }
-  
-  .buttonBack {
-    width: 65px;
-    height: 35px;
-    border: 1px solid #d1d0d6;
-    border-radius: 28.5px;
-    position: relative;
-    top: -8px;
-    margin-left: 20px;
-  }
-  
-  .buttonBall {
+  width: 100%;
+  height: 130vh;
+  background-color: #fff;
+  position: relative;
+}
+
+.billingTitle {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 80px;
+  margin: 0 auto;
+  width: 550px;
+  font-size: 40px;
+}
+
+.billingTitle + p {
+  text-align: center;
+  color: #3b3a40;
+  margin-top: 25px;
+}
+.billingTitle + p + div {
+  text-align: center;
+  color: #3b3a40;
+  margin-top: 25px;
+}
+
+.buttonAndInfo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.buttonBack {
+  width: 65px;
+  height: 35px;
+  border: 1px solid #d1d0d6;
+  border-radius: 28.5px;
+  position: relative;
+  top: -8px;
+  margin-left: 20px;
+}
+
+.buttonBall {
+  width: 22px;
+  height: 22px;
+  background: #5b45e0;
+  border-radius: 28.5px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  transition: all 0.7s ease-in-out;
+  animation: animateBall2 0.7s ease-in-out;
+}
+
+.moveBall {
+  left: 70%;
+  transition: all 0.7s ease-in-out;
+  animation: animateBall 0.7s ease-in-out;
+}
+
+@keyframes animateBall {
+  0% {
     width: 22px;
-    height: 22px;
-    background: #5b45e0;
-    border-radius: 28.5px;
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    transition: all 0.7s ease-in-out;
-    animation: animateBall2 0.7s ease-in-out;
   }
-  
-  .moveBall {
-    left: 70%;
-    transition: all 0.7s ease-in-out;
-    animation: animateBall 0.7s ease-in-out;
+  50% {
+    width: 32px;
   }
-  
-  @keyframes animateBall {
-    0% {
-      width: 22px;
-    }
-    50% {
-      width: 32px;
-    }
-    100% {
-      width: 22px;
-    }
+  100% {
+    width: 22px;
   }
-  
-  @keyframes animateBall2 {
-    100% {
-      width: 22px;
-    }
-    50% {
-      width: 32px;
-    }
-    0% {
-      width: 22px;
-    }
+}
+
+@keyframes animateBall2 {
+  100% {
+    width: 22px;
   }
-  
-  .billLine {
-    position: absolute;
-    top: 20px;
-    left: 770px;
+  50% {
+    width: 32px;
   }
-  
-  .billingBox {
-    position: absolute;
+  0% {
+    width: 22px;
+  }
+}
+
+.billLine {
+  position: absolute;
+  top: 20px;
+  left: 770px;
+}
+
+.billingBox {
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  margin-top: 15px;
+}
+
+.billingBox1 {
+  width: 310px;
+  height: 470px;
+  background-color: #ffedb6;
+  border-radius: 12px;
+}
+.billingBox2 {
+  width: 310px;
+  height: 470px;
+  background-color: #d1e8ff;
+  border-radius: 12px;
+}
+.billingBox3 {
+  width: 310px;
+  height: 470px;
+  background-color: #5b45e0;
+  border-radius: 12px;
+}
+
+.boxTitle {
+  display: flex;
+  margin: 20px;
+}
+.price {
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.perMonth{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.simpleLine{
+    width: 90%;
+    height: 1px;
+    background-color: #000;
+    margin: 20px 0 20px auto;
+    opacity: .24;
+}
+
+.billyChecks{
+    margin-right: auto;
+    margin-left: 25px;
     width: 80%;
-    height: 60%;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    margin-top: 15px;
-  }
-  
-  .billingBox1 {
-    width: 310px;
-    height: 92%;
-    background-color: #ffedb6;
-    border-radius: 12px;
-  }
-  .billingBox2 {
-    width: 310px;
-    height: 92%;
-    background-color: #d1e8ff;
-    border-radius: 12px;
-  }
-  .billingBox3 {
-    width: 310px;
-    height: 92%;
-    background-color: #5b45e0;
-    border-radius: 12px;
-  }
-  
-  .boxTitle {
+    height: 50px;
+    color: #64626A;
+}
+
+.billyCheck{
     display: flex;
-    margin: 20px;
+    margin-bottom: 20px;
   }
-  .price {
-    margin-top: 10px;
-    font-size: 40px;
-    font-weight: bolder;
+  .billyCheck>h3{
+    margin-left: 10px;
   }
-  
-  .perMonth{
-      font-size: 12px;
-      margin-left: 10px;
-      margin-top: 25px;
-  }
-  
-  .simpleLine{
-      width: 90%;
-      height: 1px;
-      background-color: #000;
-      margin: 20px 0 20px auto;
-      opacity: .24;
-  }
-  
-  .billyChecks{
-      margin-right: auto;
-      margin-left: 25px;
-      width: 80%;
-      height: 50px;
-      color: #64626A;
-  }
-  
-  .billyCheck{
-      display: flex;
-      margin-bottom: 20px;
-    }
-    .billyCheck>h3{
-      margin-left: 10px;
-    }
-  
-  .billyButton{
-      background-color: #fff;
-      border: 1px solid #3b3a40;
-      border-radius: 8px;
-      margin: 120px 20px 0 25px;
-      padding: 18px;
-      font-size: 16px;
-      font-weight: bold;
-      border: none;
-      width: 85%;
-      cursor: pointer;
-      box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.12);
-  }
+
+.billyButton{
+    background-color: #fff;
+    border: 1px solid #3b3a40;
+    border-radius: 8px;
+    margin: 120px 20px 0 25px;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    width: 85%;
+    cursor: pointer;
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.12);
+}
