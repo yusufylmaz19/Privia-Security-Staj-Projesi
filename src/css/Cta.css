@@ -1,0 +1,86 @@
+.ctaContainer{
+    width: 100%;
+    height: 400px;
+    background-color: #F5F6F9;
+    ;
+    position: relative;
+}
+
+.ctaContent{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1%;
+}
+
+#ctaLine{
+    position: absolute;
+    top: 10%;
+}
+
+#ctaLine2{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    transform: rotate(10deg);
+    width: 150px;
+}
+#ctaTria{
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    transform: rotate(70deg);
+
+}
+#ctaOval{
+    position: absolute;
+    filter: brightness(0.8) sepia(0.4) hue-rotate(-10deg) saturate(2);
+    top: 25%;
+    right: -7%;
+    transform: matrix(-0.81, 0.59, 0.59, 0.81, 0, 0);
+    width: 200px;
+}
+
+.ccBox1{
+    width: 420px;
+    height: 300px;
+    margin: auto;
+}
+.ccBox2{
+    width: 350px;
+    height: 300px;
+    margin: auto;
+}
+
+.ccBtn {
+    border: 1px solid #3b3a40;
+    border-radius: 8px;
+    padding: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    width: 45%;
+    cursor: pointer;
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.12);
+  }
+
+  .ccBox2>#btn1
+  {
+    background-color: #5b45e0;
+    color: #fff;
+    margin-top: 100px;
+    margin-right: 15px;
+    margin-left: 10px;
+  }
+  .ccBox2>#btn2
+  {
+    background-color: #fff;
+    color: #5b45e0;
+  }
