@@ -6,6 +6,7 @@ import sign from "../svg/sign.svg";
 import line from "../svg/line.svg";
 import triangle from "../svg/triangle.svg";
 import {FaArrowUp, FaCircle} from "react-icons/fa"
+import Header from './/Header';
 import {
   BarChart,
   Bar,
@@ -56,6 +57,8 @@ function Home() {
   return (
     <>
       {/* ekranın ortasında duran yazı ver butonları oluşturuyoruz */}
+      <div className="homeContainer">
+      <Header/>
       <h1 className="mid-title">Powerful analytics tools for your business</h1>
       <h1 className="mid-title2">An awesome tools for your business, increase business revenue with enterprise-grade links built to acquire and engage customers</h1>
       <div className="buttons">
@@ -137,6 +140,7 @@ function Home() {
           <h2 style={{ marginBottom:'20px'}}><FaCircle style={{color:'#5843D9',fontSize:'12px',marginRight:'4px'}}/>2.456 <div className="gray" style={{marginLeft:'20px', marginTop:'10px'}}> Engagement</div></h2>
           <h2 style={{color:'#64626A', fontSize:'18px'}}><span style={{color:'yellow',fontSize:'12px'}}><FaCircle/></span> 1,283 <span className="gray"> Reach</span></h2>
        </div>
+      </div>
       </div>
     </>
   );

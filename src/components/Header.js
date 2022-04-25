@@ -15,6 +15,7 @@ function Header() {
   return (
     <>
       {/* unordereList kullanarak başlık kımsınını oluşturuyoruz burada  */}
+      <div className="headerContainer">
       <header>
         <img src={logo}></img>
         <ul className="ul1">
@@ -59,6 +60,7 @@ function Header() {
           </li>
         </ul>
       </header>
+      </div>
     </>
   );
 }

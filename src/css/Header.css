@@ -8,13 +8,16 @@
   font-family: "Ubuntu", sans-serif;
 }
 body {
-  width: 100%;
-  background-color: #d1e8ff;
   overflow-x: hidden;
 }
-
+.headerContainer{
+  width: 100%;
+  height: 150px;
+  background-color: transparent;
+}
 header {
   display: flex;
+  width: 100%;
 }
 header>img {
     margin:10px auto;

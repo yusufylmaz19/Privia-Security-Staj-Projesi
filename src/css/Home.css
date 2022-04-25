@@ -2,7 +2,7 @@
   color: #232e69;
   font-weight: 800;
   line-height: 69px;
-  margin: 120px auto 0 auto;
+  margin: 0 auto 0 auto;
   font-size: 60px;
   text-align: center;
   width: 50%;
@@ -17,7 +17,6 @@
   width: 52%;
 }
 
-
 .hide {
   display: none;
 }
@@ -27,12 +26,14 @@
   width: 100%;
   outline: none;
   border: none;
+  position: absolute;
+  top: 400px;
 }
 .buttons > button {
   background-color: #fff;
   border: 1px solid #3b3a40;
   border-radius: 8px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   font-size: 16px;
   font-weight: bold;
@@ -49,6 +50,13 @@
   color: #5b45e0;
 }
 
+.homeContainer {
+  width: 100%;
+  position: relative; 
+  height: 930px;
+  background-color: #d1e8ff;
+}
+
 #curve1,
 #curve2 {
   position: absolute;
@@ -63,7 +71,7 @@
 #curve2 {
   width: 100px;
   height: 100px;
-  top: 80%;
+  top:  620px;
   left: 95%;
 }
 
@@ -71,19 +79,19 @@
   position: absolute;
   top: 750px;
   right: 150px;
-  z-index: -1;
+  z-index: 0;
 }
 #sign {
   position: absolute;
   top: 750px;
   left: 100px;
-  z-index: -1;
+  z-index: 0;
 }
 #triangle {
   position: absolute;
   top: 800px;
   left: 150px;
-  z-index: -1;
+  z-index: 0;
 }
 
 .graphs {
@@ -94,6 +102,7 @@
   margin: 0 auto;
   color: black;
   position: relative;
+  top: -5%;
 }
 
 .header-title{
