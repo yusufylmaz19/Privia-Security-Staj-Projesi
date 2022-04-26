@@ -5,7 +5,7 @@ import twitter from '../svg/Twitter.svg';
 import linkedin from '../svg/Linkedin.svg';
 
 function Footer() {
- 
+  
   return (
     <>
     <footer>
