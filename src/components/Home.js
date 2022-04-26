@@ -13,7 +13,6 @@ import {
   Bar,
   YAxis,
   CartesianGrid,
-  Tooltip,
 } from "recharts";
 
 function Home() {
@@ -85,7 +84,7 @@ function Home() {
         </div>
         </h2>
         <div className="select">
-        <div className="selectBox"> <FaCircle style={{color:'#5843D9',fontSize:'12px',marginRight:'4px'}}/> <span>Impression</span><FiChevronRight/></div> 
+        <div className="selectBox"> <FaCircle style={{color:'#5843D9',fontSize:'12px',marginRight:'4px'}}/> <span>Impression</span><FiChevronRight style={{}}/></div> 
         </div>
         </div>
         <div className="header-title-2"> 
@@ -130,7 +129,6 @@ function Home() {
         <CartesianGrid vertical={false} strokeDasharray="3 3" />
          
         <YAxis ticks={[0,250,500,750,1000]}/>
-        <Tooltip />
         <Bar dataKey="uv" fill="#FFD246"  barSize={8} radius={[2 ,2, 0, 0]} />
         <Bar dataKey="pv" fill="#5B45E0"  barSize={8} radius={[2 ,2, 0, 0]} />
       </BarChart>
