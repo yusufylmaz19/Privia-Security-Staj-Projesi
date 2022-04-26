@@ -26,7 +26,7 @@ function Header() {
             <a href>Products</a>
             <img src={logo2}></img>
             <br></br>
-            <ul className="ul3">
+            <ul className="ul3 hide">
               <li>
                 <a>Analyze</a>
               </li>
