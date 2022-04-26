@@ -2,7 +2,6 @@ import "../css/Header.css";
 import React  from "react";
 import logo from "../svg/Privia_logo.svg";
 import logo2 from "../svg/Chevron Up.svg";
-import {Link} from 'react-router-dom';
 
 function Header() {
   function toggle(e) {
