@@ -1,11 +1,13 @@
 import React from "react";
 import Footer from '../components/Footer';
-import Header from "../components/Header";
+import Cta from "../components/Cta";
+import Resources from "../components/Resources";
 
 function ResourcesPage(){
     return(
         <>
-        <Header/>
+        <Resources/>
+        <Cta/>
         <Footer/>
         </>
     );
