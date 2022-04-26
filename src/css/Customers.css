@@ -1,0 +1,213 @@
+.customersContainer{
+    width: 100%;
+    height: 2350px;
+    background-color: #D1E8FF;
+}
+
+.customersContent{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.customersTitle{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+    color: #232E69;
+    font-weight: bolder;
+}
+
+
+.customersContent1{
+    position: relative;
+    width: 100%;
+    height: 1980px;
+    background-color: #fff;
+    border-radius: 48px 48px 0px 0px;
+    margin-top: -80px;
+}
+
+.customerBox1{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: 650px;
+    border-bottom: 1px solid #E8E7E8;
+}
+
+.customerBox1-1{
+    position: relative;
+    top: 38.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: 500px;
+    background-color: #fff;
+    display: flex;
+}
+
+.customerShopify{
+    width: 900px;
+    height:380px;
+    border-radius: 12px;
+    border: 1px solid #D1D0D6;
+    margin:auto;
+}
+
+.customerBox1-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.customerBox2{
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1100px;
+    height: 1150px;
+}
+
+.customerBox2>p{
+    text-align: center;
+    color: #232E69;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+.customerBox2>h1{
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.tweets{
+    width: 1100px;
+    height: 1250px;
+    position: relative;
+    margin:auto;
+}
+
+.tweet{
+    position: absolute;
+    width: 450px;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 1px solid #D1D0D6;
+    margin:auto;
+}
+
+.tweet1{
+    height: 219px;
+    top: .5%;
+    left: 1%;
+}
+
+ .tweet2{
+    height: 193px;
+    top: .5%;
+    right: 1%;
+}
+
+.tweet3{
+    height: 270px;
+    top: 20.5%;
+    left: 1%;
+} 
+
+.tweet4{
+    height: 218px;
+    top: 18.5%;
+    right: 1%;
+} 
+
+
+.tweet5{
+    height: 218px;
+    top: 44.5%;
+    left: 1%;
+}
+
+.tweet6{
+    height: 218px;
+    top: 64.5%;
+    left: 1%;
+}
+
+.secondText{
+    margin-top: 15px;
+}
+
+.secondTweetText{
+    margin-top: 10px;
+}
+
+.tweet7{
+    height: 320px;
+    top: 38.5%;
+    right: 1%;
+}
+
+.tweet8{
+    height: 200px;
+    top: 66.5%;
+    right: 1%;
+}
+
+.twitterProfile{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.twitterProfile>img{
+    width: 50px;
+}
+.names{
+    margin-left: 10px;
+}
+
+.name{
+    color: #3B3A40;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px
+}
+
+.nickName{
+    color: #8E8C95;
+    font-size: 14px;
+}
+
+.twitterLogo{
+    position: absolute;
+    right: 5%;
+    top:12%;
+    width: 18px;
+}
+
+.tweetText{
+    line-height: 26px;
+    font-weight: 700;
+    width: 390px;
+    margin: 10px auto 0 auto;
+}
+
+.tag{
+    color: #2B7BB9;
+}   
+
+.tweetDate{
+    color: #8E8C95;
+    font-size: 14px;
+    margin: 10px 0 0 30px;
+}

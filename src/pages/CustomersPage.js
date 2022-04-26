@@ -1,11 +1,13 @@
 import React from "react";
 import Footer from '../components/Footer';
-import Header from "../components/Header";
+import Customers from "../components/Customers";
+import Cta from "../components/Cta";
 
 function CustomersPage(){
     return(
         <>
-        <Header/>
+        <Customers />
+        <Cta />
         <Footer/>
         </>
     );
