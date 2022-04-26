@@ -6,6 +6,7 @@ import sign from "../svg/sign.svg";
 import line from "../svg/line.svg";
 import triangle from "../svg/triangle.svg";
 import {FaArrowUp, FaCircle} from "react-icons/fa"
+import {FiChevronRight} from "react-icons/fi"
 import Header from './/Header';
 import {
   BarChart,
@@ -83,9 +84,9 @@ function Home() {
           See insight on how your business has changed over time
         </div>
         </h2>
-        <select className="select">
-        <option> <h6>🟣</h6>  Impression </option>
-        </select>
+        <div className="select">
+        <div className="selectBox"> <FaCircle style={{color:'#5843D9',fontSize:'12px',marginRight:'4px'}}/> <span>Impression</span><FiChevronRight/></div> 
+        </div>
         </div>
         <div className="header-title-2"> 
         <h2> <FaArrowUp style={{color:'green',fontSize:'16px',marginRight:'5px'}}/> 
@@ -138,7 +139,7 @@ function Home() {
        <div className="box">
           <h4 style={{color:"#64626A", marginBottom:'10px'}}>Aug 22, 2019 </h4>
           <h2 style={{ marginBottom:'20px'}}><FaCircle style={{color:'#5843D9',fontSize:'12px',marginRight:'4px'}}/>2.456 <div className="gray" style={{marginLeft:'20px', marginTop:'10px'}}> Engagement</div></h2>
-          <h2 style={{color:'#64626A', fontSize:'18px'}}><span style={{color:'yellow',fontSize:'12px'}}><FaCircle/></span> 1,283 <span className="gray"> Reach</span></h2>
+          <h2 style={{color:'#64626A', fontSize:'18px'}}><span style={{color:'#FFD246',fontSize:'12px'}}><FaCircle/></span> 1,283 <span className="gray"> Reach</span></h2>
        </div>
       </div>
       </div>

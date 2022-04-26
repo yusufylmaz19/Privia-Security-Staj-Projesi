@@ -128,11 +128,20 @@
   color: black;
   font-weight: bold;
 }
+
+.selectBox{
+  display: flex;
+  align-items: center;
+}
+
 .select {
   width: 120px;
   height: 32px;
   align-self: flex-end;
   color: #8E8C95;
+  border: 1px solid #D1D0D6;
+  border-radius: 4px;
+  padding: 5px;
   }
 
 .bars {
