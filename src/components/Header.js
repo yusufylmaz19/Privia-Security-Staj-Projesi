@@ -20,7 +20,7 @@ function Header() {
         <img src={logo}></img>
         <ul className="ul1">
           <li>
-            <a href="/">About</a>
+            <a href="/priva-staj-proje">About</a>
           </li>
           <li id="product" onClick={toggle}>
             <a href>Products</a>
@@ -41,13 +41,13 @@ function Header() {
             </ul>
           </li>
           <li>
-            <a href="Pricing">Pricing</a>
+            <a href="/priva-staj-proje/#/Pricing">Pricing</a>
           </li>
           <li>
-            <a href="Resources">Resource</a>
+            <a href="/priva-staj-proje/#/Resources">Resource</a>
           </li>
           <li>
-            <a  href="Customers">Costumers</a>
+            <a  href="/priva-staj-proje/#/Customers">Costumers</a>
           </li>
         </ul>
 
