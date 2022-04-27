@@ -4,6 +4,7 @@ import logo from "../svg/Privia_logo.svg";
 import logo2 from "../svg/Chevron Up.svg";
 
 function Header() {
+  // product tagında açılıp kapanır toolbox için js kodu
   function toggle(e) {
     e.preventDefault();
     const productEl = document.getElementById("product");

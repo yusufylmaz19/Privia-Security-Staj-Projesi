@@ -16,6 +16,9 @@ import {
 } from "recharts";
 
 function Home() {
+  
+  // bar chartı için gerekli olan data
+
   const data = [
     {
       name: "A",

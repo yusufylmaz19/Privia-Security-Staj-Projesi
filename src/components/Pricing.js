@@ -6,6 +6,9 @@ import { FaCheck } from 'react-icons/fa';
 function Pricing() {
  
   function toggleBtn(e) {
+
+    // ekrandi butona animsyon katmak için dom kullandım
+
         e.preventDefault();
         const buttonEl = document.querySelector(".buttonBack");
         buttonEl.addEventListener("click", function () {
@@ -24,6 +27,7 @@ function Pricing() {
           <p style={{color:'#5B45E0', fontWeight:'700' ,marginLeft:'10px'}}>Save 15%</p>
           <img className='priceLine' src={pathLogo}></img>
           </div>
+          {/* ödeme planaları için oluştuduğum div */}
           <div className='pricingBox'>
             <div className='pricingBox1'>
                 <div className='boxTitle'>

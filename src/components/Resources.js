@@ -72,6 +72,7 @@ function Resources() {
           </div>
         </div>
       </div>
+      {/* artcllear için yaptığım div  */}
       <div className='resourcesContentBox2'>
         <div className='box2Title'> <h1>Most insighful articles 
               for start off</h1></div>

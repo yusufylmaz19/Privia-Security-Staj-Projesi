@@ -8,6 +8,8 @@ import {HashRouter, BrowserRouter,Route,Routes} from 'react-router-dom';
 function App(){
     return(
         <>
+        {/* burada projenin page yapısnda çalışması için react router kullandım. 
+        BrowserRouter yerine HashRouter kullanmamımın sebebi github pagesin BrowserRouter da çalışmaması */}
         <HashRouter >
         <Routes>
         <Route path="/Pricing" element={<PricingPage/>} />

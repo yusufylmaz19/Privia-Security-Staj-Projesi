@@ -21,8 +21,10 @@ import { GoChevronRight, GoChevronLeft } from "react-icons/go";
 function Customers() {
   return (
     <>
+    {/* ana container  ve onun içinde 2 content */}
       <div className="customersContainer">
         <Header />
+        {/* ekranın ortasında duran ana titlın gerçekleştirilmesi */}
         <div className="customersContent">
           <div className="customersTitle">
             <h1>
@@ -30,6 +32,7 @@ function Customers() {
             </h1>
           </div>
         </div>
+         {/* burada tweet ve diğer revievler ve markaa logoları için oluşan contnetn bölümmü */}
         <div className="customersContent1">
           <div className="customerBox1">
             <div className="customerBox1-1">
@@ -74,6 +77,8 @@ function Customers() {
               <img src={titanLogo}></img>
             </div>
           </div>
+          {/* burada tweet boxları için gerçekşetirdiğim divler */}
+          {/* her bir tweet için ayrı bir div ve onun içindeki bililer için p ve img tagları kullandım */}
           <div className="customerBox2">
             <p>#ovalover</p>
             <h1>Hear more from people like you</h1>

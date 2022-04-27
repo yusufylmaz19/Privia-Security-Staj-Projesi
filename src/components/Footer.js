@@ -10,6 +10,7 @@ function Footer() {
     <>
     <footer>
     <div className='footerUpLine'></div>
+    {/* burada footerdaki titları stil tarfında display:flex; kullanarak yatayda hizalamk için 5 farklı div yaptıım. */}
       <div className='footerContainer'>
       <div className='foooterPart1'>
       <div className='footerLogos'>

@@ -248,7 +248,7 @@ function Features() {
         </div>
         </div>
       </div>
-      {/* feature kısmınn ikinic partı */}
+      {/* feature kısmınn dördüncü partı */}
       <div className="features4">
         <div className="f4PartOne">
           <img id="oval" src={ovalLogo}></img>
