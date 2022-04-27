@@ -1,7 +1,19 @@
 
+# Projem nasıl gözüküyor
+<img src="howslook/img1.png" width="550"/>
+<h5>ana sayafa ve header <h5/>
+  
+<img src="howslook/img3.png" width="550"/>
+<h5 >ödeme planları<h5/>
+  
+  <img src="howslook/img5.png" width="550"/>
+<h5> diğer görüşler tweelteri<h5/>
 
-
-
+## figma tasarım linki (https://www.figma.com/file/mcV8fmDv3EV0qQhQHhUkdQ/FrontEnd?node-id=0%3A1)
+  
+## projemi görntülemek isterseniz [tıklayın](https://yusufylmaz19.github.io/priva-staj-proje/)
+  
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
