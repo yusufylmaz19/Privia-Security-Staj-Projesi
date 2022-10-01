@@ -11,7 +11,7 @@
 
 ## figma tasarım linki (https://www.figma.com/file/mcV8fmDv3EV0qQhQHhUkdQ/FrontEnd?node-id=0%3A1)
   
-## projemi görntülemek isterseniz [tıklayın](https://yusufylmaz19.github.io/priva-staj-proje/)
+## projemi görüntülemek isterseniz [tıklayın](https://yusufylmaz19.github.io/priva-staj-proje/)
   
   
 # Getting Started with Create React App
